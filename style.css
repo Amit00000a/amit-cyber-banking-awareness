@@ -1,5 +1,7 @@
 
-body{font-family:Poppins,Arial;background:#f1f5f9}
-.hero{background:#020617;color:white;padding:70px 20px}
-.card{border-radius:16px;box-shadow:0 10px 20px rgba(0,0,0,.1)}
-.footer{background:#020617;color:#94a3b8;text-align:center;padding:15px}
+body{font-family:Arial;background:#f4f6f8;margin:0}
+header{background:#0b1c2d;color:#fff;padding:20px;text-align:center}
+nav{display:flex;justify-content:center;gap:10px;background:#12263a;padding:10px}
+nav button{padding:10px 15px;border:none;background:#1e90ff;color:#fff;border-radius:5px}
+main{padding:20px}
+footer{text-align:center;background:#0b1c2d;color:#fff;padding:10px;position:fixed;bottom:0;width:100%}

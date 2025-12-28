@@ -3,56 +3,32 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Amit Cyber & Banking Awareness</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
+<script defer src="assets/js/app.js"></script>
 </head>
 <body>
+<header>
+<h1>Amit Cyber & Banking Awareness</h1>
+<p>Professional Cyber Safety & Banking Intelligence Portal (Hindi + English)</p>
+</header>
 
-<nav class="navbar navbar-dark bg-dark px-4">
-  <span class="navbar-brand fw-bold">🛡 Amit Cyber & Banking Awareness</span>
+<nav>
+<button onclick="loadSection('fraud')">Cyber Fraud</button>
+<button onclick="loadSection('banking')">Banking Safety</button>
+<button onclick="loadSection('upi')">UPI Security</button>
+<button onclick="loadSection('tools')">Live Tools</button>
+<button onclick="loadSection('reports')">Reports</button>
 </nav>
 
-<section class="hero text-center">
-  <h1>Cyber & Banking Safety Portal</h1>
-  <p>Protect Yourself From Digital Fraud | हिंदी + English</p>
-</section>
+<main id="content">
+<h2>Welcome</h2>
+<p>This portal provides real cyber & banking awareness. Backend-ready, scalable & professional.</p>
+</main>
 
-<section class="container my-5">
-<div class="row g-4">
-<div class="col-md-3"><div class="card p-3 text-center"><i class="fa-solid fa-shield-halved fa-2x text-primary"></i><h5 class="mt-2">Cyber Fraud</h5></div></div>
-<div class="col-md-3"><div class="card p-3 text-center"><i class="fa-solid fa-building-columns fa-2x text-success"></i><h5 class="mt-2">Banking Safety</h5></div></div>
-<div class="col-md-3"><div class="card p-3 text-center"><i class="fa-solid fa-mobile-screen-button fa-2x text-warning"></i><h5 class="mt-2">UPI Fraud</h5></div></div>
-<div class="col-md-3"><div class="card p-3 text-center"><i class="fa-solid fa-clipboard-question fa-2x text-danger"></i><h5 class="mt-2">Cyber Quiz</h5></div></div>
-</div>
-</section>
-
-<section class="container my-5">
-<h3>🚨 Report Cyber Fraud</h3>
-<ul>
-<li>Call National Helpline: <b>1930</b></li>
-<li>Visit: cybercrime.gov.in</li>
-<li>Immediately inform your bank</li>
-</ul>
-</section>
-
-<section class="container my-5">
-<h3>📄 Awareness Downloads</h3>
-<a href="downloads/upi_safety.pdf" class="btn btn-outline-primary">UPI Safety PDF</a>
-</section>
-
-<section class="container my-5">
-<h3>🔗 Fake Link Checker (Demo)</h3>
-<input type="text" id="link" class="form-control" placeholder="Paste link here">
-<button onclick="checkLink()" class="btn btn-danger mt-2">Check</button>
-<p id="result" class="mt-2"></p>
-</section>
-
-<footer class="footer">
-© Amit Cyber & Banking Awareness | Educational Purpose Only
+<footer>
+<p>© Amit Cyber & Banking Awareness | Educational & Research Purpose</p>
 </footer>
-
-<script src="assets/js/tools.js"></script>
 </body>
 </html>
